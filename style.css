@@ -4,17 +4,17 @@ body {
 }
 header {
   min-height: 50px;
-  background: lightcyan;
 }
 footer {
   min-height: 50px;
-  background: PapayaWhip;
 }
 
 /* Footer trick */
 body {
   display: flex;
   flex-direction: column;
+  background-color: #36454f;
+  color: lightcyan;
 }
 
 footer {
@@ -22,3 +22,15 @@ footer {
 }
 
 /* - End footer trick - */
+
+.marx {
+  color: #fa2fbd;
+}
+
+.dot {
+  color: #fff01f;
+}
+
+.club {
+  color: #3cfa92;
+}
