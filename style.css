@@ -16,8 +16,9 @@ footer {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #36454f;
-  color: lightcyan;
+  background-color: lightcyan;
+  color: black;
+  animation: changeColor 0.5s;
 }
 
 footer {
@@ -42,7 +43,7 @@ h1 {
   text-align: center;
   font-family: "Bowlby One SC", cursive;
   font-size: 15vw;
-  animation: growText 1s;
+  animation: growText 0.5s;
 }
 
 @keyframes growText {
@@ -51,5 +52,14 @@ h1 {
   }
   to {
     transform: scale(1);
+  }
+}
+
+@keyframes changeColor {
+  from {
+    background-color: #36454f;
+  }
+  to {
+    background-color: lightcyan;
   }
 }
